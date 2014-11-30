@@ -3,8 +3,7 @@
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
-    android:id="@+id/">
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -35,8 +34,8 @@
         android:layout_below="@+id/textView2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/deliteAll"
-        android:layout_alignEnd="@+id/deliteAll" />
+        android:layout_alignRight="@+id/deleteAll"
+        android:layout_alignEnd="@+id/deleteAll" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -57,8 +56,8 @@
         android:layout_below="@+id/textView3"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/deliteAll"
-        android:layout_alignEnd="@+id/deliteAll" />
+        android:layout_alignRight="@+id/deleteAll"
+        android:layout_alignEnd="@+id/deleteAll" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -86,7 +85,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="削除"
-        android:id="@+id/delite"
+        android:id="@+id/delete"
         android:layout_toEndOf="@+id/update"
         android:layout_below="@+id/editAge"
         android:layout_toRightOf="@+id/update" />
@@ -96,10 +95,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="すべて削除"
-        android:id="@+id/deliteAll"
-        android:layout_toEndOf="@+id/delite"
+        android:id="@+id/deleteAll"
+        android:layout_toEndOf="@+id/delete"
         android:layout_below="@+id/editAge"
-        android:layout_toRightOf="@+id/delite"
+        android:layout_toRightOf="@+id/delete"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
@@ -113,7 +112,7 @@
         android:layout_below="@+id/insert"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/deliteAll"
-        android:layout_alignEnd="@+id/deliteAll" />
+        android:layout_alignRight="@+id/deleteAll"
+        android:layout_alignEnd="@+id/deleteAll" />
 
 </RelativeLayout>
